@@ -51,7 +51,7 @@
             HRML(A,      S)        &kp D      &kp F				&kp G				    &kp H      &kp J      &kp K      HRMR(L,  SEMICOLON)
         //├──────────┼──────────┼──────────┼──────────────────┼──────────────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V				  │  B				 │   │  N       │  M       │ , <      │ . >      │ / ?      │
-            &kp Z      &kp X      &kp C      &kp V				&kp B				   &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
+            &kp Z    &ht LC(X) X &ht LC(C) C  &ht LC(V) V		&kp B				   &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH
         //╰──────────┴──────────┴──────────┼──────────────────┼──────────────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &kp LSHFT           &kp SPACE              &to  1     &ht LCTRL SQT 
         //                                 ╰──────────────────┴──────────────────╯   ╰──────────┴──────────╯
@@ -99,10 +99,10 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ RESET    │          │          │          │PROFILE 0 │   │          │          │          │          │  RESET   │
-           &sys_reset  &trans     &trans     &trans    &bt BT_SEL 0    &trans     &trans     &kp UP     &trans    &sys_reset
+           &sys_reset  &kp INS    &kp HOME  &kp PG_UP  &bt BT_SEL 0    &trans     &trans     &kp UP     &trans    &sys_reset
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│BOOTLOADER│          │          │          │PROFILE 1 │   │          │          │          │          │BOOTLOADER│
-          &bootloader  &trans     &trans     &trans    &bt BT_SEL 1    &trans     &kp LEFT   &kp DOWN  &kp RIGHT  &bootloader
+          &bootloader  &kp DEL    &kp END   &kp PG_DN  &bt BT_SEL 1    &trans     &kp LEFT   &kp DOWN  &kp RIGHT  &bootloader
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │ CLEAR BT │PROFILE 2 │   │          │          │          │          │          │
             &trans     &trans     &trans    &bt BT_CLR &bt BT_SEL 2    &trans     &trans     &trans     &trans     &trans
