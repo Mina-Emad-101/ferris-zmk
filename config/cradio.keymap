@@ -117,10 +117,10 @@
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
 		//│  Q       │  W       │  E       │  R       │  T       │   │          │          │          │          │  RESET   │
-			&kp TAB		&kp Q      &kp W      &kp E      &kp R         &trans      &trans      &trans    &trans    &kp ESC
+			&kp TAB		&kp Q      &kp W      &kp E      &kp R         &trans      &trans      &kp UP   &trans    &kp ESC
 		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 		//│  A       │  S       │  D       │  F       │  G       │   │          │          │          │          │BOOTLOADER│
-			&kp LSHFT	&kp A        &kp S    &kp D      &kp F    	   &trans      &trans 	  &trans   	&trans    &kp ENTER
+			&kp LSHFT	&kp A        &kp S    &kp D      &kp F    	   &trans      &kp LEFT	 &kp DOWN   &kp RIGHT  &kp ENTER
 		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 		//│  Z       │  X       │  C       │  V       │  B       │   │          │          │          │          │          │
 			&kp LCTRL	&kp Z      &kp X      &kp C      &kp V     	   &trans      &trans      &trans    &trans     &trans 
