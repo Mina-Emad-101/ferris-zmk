@@ -117,10 +117,10 @@
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
 		//│  Q       │  W       │  E       │  R       │  T       │   │          │          │          │          │  RESET   │
-			&kp TAB		&kp Q      &kp W      &kp E      &kp R         &trans      &trans      &kp UP   &trans    &kp ESC
+			&kp TAB		&kp Q      &kp W      &kp E      &kp R         &trans      &trans      &trans   &trans    &kp ESC
 		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 		//│  A       │  S       │  D       │  F       │  G       │   │          │          │          │          │BOOTLOADER│
-			&kp LSHFT	&kp A        &kp S    &kp D      &kp F    	   &trans      &kp LEFT	 &kp DOWN   &kp RIGHT  &kp ENTER
+			&kp LSHFT	&kp A        &kp S    &kp D      &kp F    	   &trans      &trans     &trans     &trans    &kp ENTER
 		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 		//│  Z       │  X       │  C       │  V       │  B       │   │          │          │          │          │          │
 			&kp LCTRL	&kp Z      &kp X      &kp C      &kp V     	   &trans      &trans      &trans    &trans     &trans 
@@ -135,10 +135,10 @@
 			bindings = <
 		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
 		//│  ESC     │  1       │  2       │  3       │  4       │   │          │          │          │          │  RESET   │
-			&kp ESC    &kp N1		&kp N2    &kp N3      &kp N4       &none   	  &none       &none      &none      &none
+			&kp ESC    &kp N1		&kp N2    &kp N3      &kp N4       &none   	  &none       &kp UP     &none      &none
 		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 		//│  A       │  S       │  D       │  F       │  G       │   │          │          │          │          │BOOTLOADER│
-			&kp CAPS   	&kp F1    &kp F2     &kp F3      &kp G   	   &none   	  &none       &none      &none      &none
+			&kp CAPS   	&kp F1    &kp F2     &kp F3      &kp G   	   &none   	   &kp LEFT	 &kp DOWN   &kp RIGHT   &none
 		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 		//│  Z       │  X       │  C       │  V       │  B       │   │          │          │          │          │          │
 			&none	   &none      &none      &none      &kp B     	   &none   	  &none       &none      &none      &none
